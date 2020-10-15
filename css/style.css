@@ -1,0 +1,310 @@
+/*
+author reaz chowdhury
+mail:reaz.chowdhury.127@gmail.com
+website:www.reaz127.com
+*/
+
+
+/*
+Placerat======index==
+1.header 
+2.Fusce at 
+3. Facilisis
+ 4.Ante donec 
+ 5.Blandit rhoncus 
+ 6.  Placerat
+ */
+
+
+/*
+ glabal css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700;900&display=swap');
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+.cstm-btn-one {
+    background-color: #fff;
+    color: #612316;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    padding: 9px 24px;
+    border: none;
+    font-size: 18px;
+}
+
+.cstm-btn-two {}
+
+
+/*custom css*/
+
+.nav-head {
+    background-color: #edeff1!important;
+    padding: 25px 0px;
+}
+
+.nav-link {
+    color: #31353e;
+}
+
+.nav-link.js-scroll-trigger:active {
+    background-color: #dd4b2b!important;
+    border-radius: 29px;
+    padding: 10px 30px;
+}
+
+
+/*hero section*/
+
+.hero {
+    background: url(../img/template.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+}
+
+.banner-title {
+    text-align: center;
+}
+
+.banner-title h2 {
+    color: #fff;
+    font-size: 72px;
+    padding-top: 225px;
+}
+
+.banner-title h4 {
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 100px;
+}
+
+.banner-item {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-itemn img {
+    padding-top: 25px;
+}
+
+.banner-item h3 {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 25px;
+}
+
+.banner-item p {
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+
+/*Facilisis section start*/
+
+.news {
+    padding: 50px 0px;
+    background-color: #edeff1;
+}
+
+.news-title {
+    text-align: center;
+}
+
+.news-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lorem {
+    text-align: center;
+}
+
+.lorem img {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.lorem h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.lorem p {
+    font-size: 15px;
+    padding-bottom: 50px;
+    margin: 0px 19px;
+}
+
+.cstm-btn-two {
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-size: 15px;
+}
+
+
+/*newsletter*/
+
+.newsletter {
+    background: url(../img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    background-color: rgb(0, 0, 0, .3);
+    background-blend-mode: overlay;
+}
+
+.newsletter-title {
+    text-align: center;
+}
+
+.newsletter-title h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.newsletter-title p {
+    font-size: 15px;
+    color: white;
+}
+
+.news-form {}
+
+.form-control {
+    border-radius: 20px;
+    background: transparent;
+    position: relative;
+    padding: 6px 24px;
+}
+
+.btn-newsletter {
+    position: absolute;
+    right: 13px;
+    border-radius: 20px;
+    padding: 6px 39px;
+    top: 1px;
+    color: #612316;
+    border: none;
+    background: white;
+}
+
+
+/*blandit-content*/
+
+.blandit-content {}
+
+.blandit-content-one {
+    padding: 160px 0px;
+    box-sizing: border-box;
+}
+
+.blandit-content-one h2 {
+    color: #191b29;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blandit-content-one p {
+    color: #191b29;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.blandit-btn-one {
+    background: #dd4b2b;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 60px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blandit-content-one {
+    padding: 160px 0px;
+    box-sizing: border-box;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.blandit-btn-two {
+    background: #4b4e73;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 60px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*--placerhat section start*/
+
+.placerat-content {
+    background: #d75d0e;
+    padding: 80px 0px;
+}
+
+.placerat-content-one p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*footer section start*/
+
+footer {
+    background: url(../img/newsletter.jpg)no-repeat center top;
+    background-size: cover;
+    background-color: rgb(0, 0, 0, .3);
+    background-blend-mode: overlay;
+    padding: 100px 0px;
+}
+
+.footer-content p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Myriad Pro Regular';
+}
